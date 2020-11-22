@@ -1,0 +1,55 @@
+#text{
+    font-style: italic;
+}
+.fa {
+    padding: 20px;
+    font-size: 15px;
+    width: 55px;
+    text-align: center;
+    margin: 5px 2px;
+    color:white;
+    border-radius: 50%;
+}
+.fa-facebook {
+    background: grey;
+}
+
+.fa-twitter {
+    background: grey;
+}
+.fa-instagram {
+    background: grey;
+}
+* {
+    box-sizing: border-box;
+}
+.btn-primary {
+    background-color: black;
+}
+#btn{
+   float:right;
+   width:30%;
+
+}
+#naslov{
+    padding:15px;
+    font-size:28pt;
+}
+#naslov1{
+    font-size: 20pt;
+    text-align:center;
+    font-style: italic ;
+}
+div.row{
+    margin-top:10px;
+}
+.contact-form {
+    float:right;
+    background-color:#EEEEEE;
+    box-shadow: 5px 5px  #EEEEEE;
+    padding: 10px;
+    margin: 15px;
+}
+ #p{
+     font-style: italic ;
+ }
