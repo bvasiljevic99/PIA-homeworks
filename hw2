@@ -1,0 +1,291 @@
+<!DOCTYPE HTML>
+
+<html >
+
+<head>
+  <title>Pia homework2</title>
+  <meta name="author" content="Boban Vasiljevic" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="pizza.css" > 
+<body background="pozadina.jpg">
+ 
+
+</head>
+
+<body>
+
+
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+        <a class="navbar-brand" href="#">
+         
+      </a>
+  <ul class="navbar-nav">
+    <li class="nav-item">
+      <a class="nav-link" href="#Onama">O nama</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#Meni">Meni</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#Kontakt">Kontakt</a>
+    </li>
+  </ul>
+</nav>
+<br>
+<br>
+
+<div  id="Onama" class="container pt-3" >
+  <h1 id="naslov">O nama</h1>
+<p id="onama"><font size="12",font color="red", font-family= "Georgia"><b>
+    Ako tražite piceriju sa renomeom, u kojoj su kvalitet i usluga provereni, to je svakako picerija „Azzu“. Dobar miris daleko dopire pa je tako i picerija „Azzu“ već pridobila simpatije mnogih Kragujevčana. Ako već tamo niste bili, svakako otiđite, a prijatna atmosfera i vrhunski kvalitet garant su da ćete se ponovo vratiti.
+</font></b></p>
+</div>
+
+  
+<div id="Meni" class="container pt-3" >
+  <h1 id="naslov">Meni</h1>
+  <div class="row" >
+    <div class="col-sm-4" >
+        <img src="pica1.jpg" alt="Srbijanka" width="500" height="300">
+    </div>
+    <div class="col-sm-8" style="background-color:#808080;">
+    <h1 id="naslov1">Srbijanka</h1>
+    <br>
+    Sastav:Pelat, sir, slanina, paradajz, zelena paprika,pecurke,kackavalj.
+    <br>
+    Cena:280 din
+    <br>
+
+<div class="dropdown">
+    <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+      Izbor veličine pice
+    </button>
+    <div class="dropdown-menu">
+      <a class="dropdown-item" href="#">25 cm</a>
+      <a class="dropdown-item" href="#">33 cm</a>
+      <a class="dropdown-item" href="#">50 cm</a>
+    </div>
+</div>
+
+<br>
+
+<div class="dropdown">
+    <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+      Izbor količine pice
+    </button>
+    <div class="dropdown-menu">
+      <a class="dropdown-item" href="#">1</a>
+      <a class="dropdown-item" href="#">2</a>
+      <a class="dropdown-item" href="#">3</a>
+      <a class="dropdown-item" href="#">4</a>
+    </div>
+  </div>
+<br>
+<div class="btn btn-primary" id="btn">Poruci</div>
+</div>
+  </div>
+
+
+
+<div class="row ">
+    <div class="col-sm-4" >
+        <img src="pica2.jpg" alt="posna pica" width="500" height="300">
+    </div>
+    <div  class="col-sm-8" style="background-color:#808080;">
+    <h1 id="naslov1">Posna pica</h1>
+    <br>
+    Sastav:Pelat, biljni sir,pecurke, kukuruz, tunjevina, posni majonez,zelena salata,origano.
+    <br>
+    Cena:220 din
+    <br>
+
+<div class="dropdown">
+    <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+      Izbor veličine pice
+    </button>
+    <div class="dropdown-menu">
+      <a class="dropdown-item" href="#">22 cm</a>
+      <a class="dropdown-item" href="#">33 cm</a>
+      <a class="dropdown-item" href="#">50 cm</a>
+    </div>
+</div>
+
+<br>
+
+<div class="dropdown">
+    <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+     Broj pica
+    </button>
+    <div class="dropdown-menu">
+      <a class="dropdown-item" href="#">1</a>
+      <a class="dropdown-item" href="#">2</a>
+      <a class="dropdown-item" href="#">3</a>
+      <a class="dropdown-item" href="#">4</a>
+    </div>
+  </div>
+<br>
+<div class="btn btn-primary" id="btn">Poruci</div>
+</div>
+  </div>
+
+
+
+<div class="row ">
+    <div class="col-sm-4" >
+        <img src="severnakapija.jpg" alt="severna kapija" width="500" height="300">
+    </div>
+    <div class="col-sm-8" style="background-color:#808080;">
+    <h1 id="naslov1">severna kapija</h1>
+    <br>
+    Sastav:Pelat, sunka,kackavalj,pecurke,masiline,origano.
+    <br>
+    Cena:240 din
+    <br>
+
+<div class="dropdown">
+    <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+      Izbor veličine pice
+    </button>
+    <div class="dropdown-menu">
+      <a class="dropdown-item" href="#">22 cm</a>
+      <a class="dropdown-item" href="#">33 cm</a>
+      <a class="dropdown-item" href="#">50 cm</a>
+    </div>
+</div>
+
+<br>
+
+<div class="dropdown">
+    <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+     Broj pica
+    </button>
+    <div class="dropdown-menu">
+      <a class="dropdown-item" href="#">1</a>
+      <a class="dropdown-item" href="#">2</a>
+      <a class="dropdown-item" href="#">3</a>
+      <a class="dropdown-item" href="#">4</a>
+    </div>
+  </div>
+<br>
+<div class="btn btn-primary" id="btn">Poruci</div>
+</div>
+  </div>
+
+
+
+<div class="row ">
+    <div class="col-sm-4">
+        <img src="pica3.jpg" alt="letnja pica" width="500" height="300">
+    </div>
+    <div class="col-sm-8" style="background-color:#808080;">
+    <h1 id="naslov1">Letnja pica</h1>
+    <br>
+    Sastav:Pelat, sunka,kackavalj,masline,pavlaka, origano.
+    <br>
+    Cena:180 din
+    <br>
+
+<div class="dropdown">
+    <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+      Izbor veličine pice
+    </button>
+    <div class="dropdown-menu">
+      <a class="dropdown-item" href="#">22 cm</a>
+      <a class="dropdown-item" href="#">33 cm</a>
+      <a class="dropdown-item" href="#">50 cm</a>
+    </div>
+</div>
+
+<br>
+
+<div class="dropdown">
+    <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+      Broj pica
+    </button>
+    <div class="dropdown-menu">
+      <a class="dropdown-item" href="#">1</a>
+      <a class="dropdown-item" href="#">2</a>
+      <a class="dropdown-item" href="#">3</a>
+      <a class="dropdown-item" href="#">4</a>
+    </div>
+  </div>
+<br>
+<div class="btn btn-primary" id="btn">Poruci</div>
+</div>
+  </div>
+</div>
+  
+  
+  
+  
+  
+  <div id="Kontakt">
+    <div class="container contact-form">
+        <h1 id="naslov">Kontakt</h1>
+            <form class="was-validated">
+            <div class="form-group">
+                <label>Ime i prezime:</label>
+                <input type="text" class="form-control" required>
+                <div class="valid-feedback" id="text">Ispravno.</div>
+                <div class="invalid-feedback" id="text">Molim Vas, unesite Vase ime i prezime.</div>
+            </div>
+
+       
+            <div class="form-group">
+                  <label>Broj telefona:</label>
+                  <input type="text" class="form-control" required>
+                  <div class="valid-feedback" id="text">Ispravno.</div>
+                  <div class="invalid-feedback" id="text">Molim Vas, unesite Vas broj telefona.</div>
+            </div>
+
+            <div class="form-group">
+                  <label>Poruka:</label>
+                  <textarea class="form-control" required></textarea>
+                  <div class="valid-feedback" id="text">Ispravno.</div>
+                  <div class="invalid-feedback" id="text">Molim Vas, ostavite poruku.</div>
+            </div>
+
+            <div class="form-group">
+                  <button class="btn btn-primary">Prosledite podatke</button>
+            </div>
+            </form>
+    </div>
+</div>
+
+  
+  
+  
+  
+  
+<footer>
+  <div class="container">
+      <a href="https://www.facebook.com/Azzu-Pizzeria-280377485657768/" class="fa fa-facebook"></a>
+      <a href="https://twitter.com/Azzupizzeria" class="fa fa-twitter"></a>
+      <a href="https://www.instagram.com/Azzupiceria/" class="fa fa-instagram"></a>
+  
+     <div class="container" id="p">
+                            <p class="informacije">Adresa: Ilindenska , Kragujevac</p>
+                            <p class="informacije">Email: bvasiljevic99@gmail.com</p>
+                            <p class="informacije">Broj telefona: 034 6323247</p>
+     </div>
+   </div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
