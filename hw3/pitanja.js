@@ -1,79 +1,79 @@
-let question =[
+let pitanja =[
     {
-        question: '1.  Najpoznatija dela Stevana Sremca "Ivkova slava" i "Zona Zamfirova", oslikavaju patrijarhalni duh i orijentalnu atmosferu u jednom od naših gradova?',
-        choice1: 'Krusevac',
-        choice2: 'Nis',
-        choice3: 'Vranje', 
-        choice4: 'Prizren',
-        answer:  3
+       pitanje: '1.  Najpoznatija dela Stevana Sremca "Ivkova slava" i "Zona Zamfirova", oslikavaju patrijarhalni duh i orijentalnu atmosferu u jednom od naših gradova?',
+        opc1: 'Krusevac',
+        opc2: 'Nis',
+        opc3: 'Vranje', 
+        opc4: 'Prizren',
+        odgovor:  3
     },
 
     {
-        question: '2. Koja od navedenih pesama ne pripada baladama?',
-        choice1: 'Hasanaginica',
-        choice2: 'Lorelaj', 
-        choice3: 'Mozda spava',
-        choice4: 'Romansa Mesecnika',
-        answer: 3
+        pitanje: '2. Koja od navedenih pesama ne pripada baladama?',
+        opc1: 'Hasanaginica',
+        opc2: 'Lorelaj', 
+        opc3: 'Mozda spava',
+        opc4: 'Romansa Mesecnika',
+        odgovor: 3
     },
 
     {
-        question: '3.Koji srpski knjizevnik je autor drame "cudo u sarganu?',
+        pitanje: '3.Koji srpski knjizevnik je autor drame "cudo u sarganu?',
 
-        answer:'Ljubomir Simovic'
+        odgovor:'Ljubomir Simovic'
     },
     {
-        question: '4. Ko je od navedenih autora bio satiricar?',
-        choice1: 'Vasko Popa',
-        choice2: 'Milan Rakic',
-        choice3: 'Petar Petrovic Njegos',
-        choice4: 'Radoje Domanovic',
-        answer:4
+        pitanje: '4. Ko je od navedenih autora bio satiricar?',
+        opc1: 'Vasko Popa',
+        opc2: 'Milan Rakic',
+        opc3: 'Petar Petrovic Njegos',
+        opc4: 'Radoje Domanovic',
+       odgovor:4
     },
 
     {
-        question: '5. Prvi srpski nobelovac je?',
+        pitanje: '5. Prvi srpski nobelovac je?',
         
-        answer:'Ivo Andric'
+       odgovor:'Ivo Andric'
     },
 
     {
-        question: '6. Koja se motivacija najčešće koristi u romantičarskim delima?',
-        choice1: 'Sudbina ili slucaj', 
-        choice2: 'psiholoska', 
-        choice3: 'drustvena', 
-        choice4: 'ljubavna',
-        answer:1
+        pitanje: '6. Koja se motivacija najčešće koristi u romantičarskim delima?',
+        opc1: 'Sudbina ili slucaj', 
+        opc2: 'psiholoska', 
+        opc3: 'drustvena', 
+        opc4: 'ljubavna',
+        odgovor:1
     },
 
     {
-        question: '7. Delo "Derviš i smrt" Meše Selimovića je:',
-        choice1: 'lirska poema',
-        choice2: 'psiholoski roman',
-        choice3: 'drama',
-        choice4: 'pripovetka',
-        answer:2
+        pitanje: '7. Delo "Derviš i smrt" Meše Selimovića je:',
+        opc1: 'lirska poema',
+        opc2: 'psiholoski roman',
+        opc3: 'drama',
+        opc4: 'pripovetka',
+        odgovor:2
     }
 	{
-        question: '8.Koliko pevanja je podeljeno delo Ilijada i Odiseja',
+        pitanje: '8.Koliko pevanja je podeljeno delo Ilijada i Odiseja',
 
-        answer:'24'
+        odgovor:'24'
     }
 	 
 	 {
-        question: '9. Koje od nevedenih dela pripada drami apsurda?',
-        choice1: 'Cekajuci Godoa',
-        choice2: 'Balkanski spijun',
-        choice3: 'Kir Janja',
-        choice4: 'Pokondirena tikva',
-        answer:1
+        pitanje: '9. Koje od nevedenih dela pripada drami apsurda?',
+        opc1: 'Cekajuci Godoa',
+        opc2: 'Balkanski spijun',
+        opc3: 'Kir Janja',
+        opc4: 'Pokondirena tikva',
+        odgovor:1
     }
 	 {
-        question: '10. ,,Na kom se mostu i kad mogu sresti, svemoć i nemoć, prolazno i večno?" Ova stilska figura zove se:',
-        choice1: 'gradacija',
-        choice2: 'apostrofa',
-        choice3: 'slovenska antiteza',
-        choice4: 'retorsko pitanje',
-        answer:4
+        pitanje: '10. ,,Na kom se mostu i kad mogu sresti, svemoć i nemoć, prolazno i večno?" Ova stilska figura zove se:',
+        opc1: 'gradacija',
+        opc2: 'apostrofa',
+        opc3: 'slovenska antiteza',
+        opc4: 'retorsko pitanje',
+        odgovor:4
     }
 ]
