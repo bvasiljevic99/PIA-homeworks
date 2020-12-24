@@ -1,0 +1,77 @@
+<html >
+    <head>
+        <title>Kviz</title>
+        <meta charset="utf-8">
+		<script defer src="quiz.js"></script>
+		
+		
+		
+	</head>
+	<body>
+	 <body>
+        <div id="container">
+
+           
+            <div class="form-group">
+                <input type="text" class="form-control" id="name" placeholder="Player name: ">
+            </div>
+
+            <div id="start">Submit</div>
+
+
+            <!--Guide section-->
+            <div id="guide">
+               
+
+                <div id="button">
+                    <button id="continue">Continue</button>
+                </div>
+
+            </div>
+
+            
+            <!--Quiz section-->
+            <div id="quiz">
+                <div id="quiz-header">
+                    <h4>What do you know about C++?</h4>
+                    <div id="timer">
+                        <h5 id="time">00</h5>
+                    </div>
+                </div>
+
+                <!--Quiz question-->
+                <div id="question">
+                    <h2 id="questionNo"></h2>
+                    <h2 id="questionText"></h2>
+                </div>
+
+                <!--Quiz answers-->
+                <div id="optionList">
+                    <h4 class="choice_que" id="option1"></h4>
+                    <h4 class="choice_que" id="option2"></h4>
+                    <h4 class="choice_que" id="option3"></h4>
+                    <h4 class="choice_que" id="option4"></h4>
+                    <input type="text" class="form-control" id="inputAnswer" placeholder="Enter here: ">
+                    <h3 class="btnn">OK/ NEXT</h3>
+                </div>
+
+                <!--Answers section-->
+                <div id="answersSection">
+                    <h3 id="exit">Exit</h3>
+                    <h3 id="next_question">Next</h3>
+                </div>
+
+            </div>
+                <!--Result section-->
+                <div id="result">
+                    <h6>Score: </h6>
+                    <h6 id="points"></h6>
+                    <h6 id="outOf">OUT OF 10</h6>
+                    <button id="startAgain">Restart</button>
+                    <button id="quit">Quit</button>
+                </div>
+
+        </div>
+    </body>
+    
+</html>
