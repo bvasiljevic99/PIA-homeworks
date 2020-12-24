@@ -18,11 +18,11 @@ let questionNo = document.querySelector("#questionNo");
 let questionText = document.querySelector("#questionText");
 
 //Answers
-let option1 = document.querySelector("#option1");
-let option2 = document.querySelector("#option2");
-let option3 = document.querySelector("#option3");
-let option4 = document.querySelector("#option4");
-let inputAnswer = document.querySelector("#inputAnswer");
+let opt1 = document.querySelector("#opt1");
+let opt2 = document.querySelector("#opt2");
+let opt3 = document.querySelector("#opt3");
+let opt4 = document.querySelector("#opt4");
+let inputOdgovor = document.querySelector("#inputOdgovor");
 
 //Score and next question
 let total_correct = document.querySelector("#total_correct");
@@ -60,14 +60,14 @@ btnn.addEventListener('click', ()=>{
     }
 
     if(index >= MCQS.length-1 && index < 9 ){
-        option1.style.display = "none";
-        option2.style.display = "none";
-        option3.style.display = "none";
-        option4.style.display = "none";
+        opc1.style.display = "none";
+        opc2.style.display = "none";
+        opc3.style.display = "none";
+        opc4.style.display = "none";
         index++;
 
         questionText.innerText = questions2[i].question;
-        inputAnswer.style.display = "block";
+        inputOdgovor.style.display = "block";
 
         timer = 0;
         clearInterval(interval);
@@ -122,11 +122,11 @@ let countDown = ()=>{
 
 let loadData = ()=>{
     questionNo.innerText = index + 1 + ". ";
-    questionText.innerText = MCQS[index].question;
-    option1.innerText = MCQS[index].choice1;
-    option2.innerText = MCQS[index].choice2;
-    option3.innerText = MCQS[index].choice3;
-    option4.innerText = MCQS[index].choice4;
+    questionText.innerText = pitanja[index].question;
+    opt1.innerText = pitanja[index].opc1;
+    opt2.innerText = pitanja[index].opc2;
+    opt3.innerText = pitanja[index].opc3;
+    opt4.innerText = pitanja[index].opc4;
 
     //start timer
     timer = 0;
@@ -146,11 +146,11 @@ continueBtn.addEventListener('click', ()=>{
     })
 });
 
-choice_que.forEach( (choices, choiceNo) => {
-   choices.addEventListener("click", ()=>{
-       choices.classList.add("active");
+opc_que.forEach( (opc, choiceNo) => {
+   opc.addEventListener("click", ()=>{
+       opcs.classList.add("active");
        //check answer
-       if(choiceNo === MCQS[index].answer){
+       if(opcNo === pitanja[index].answer){
            correct++;
        }
        else{
@@ -162,7 +162,7 @@ choice_que.forEach( (choices, choiceNo) => {
 
        //disable other choices when the answer is selected
        for(let i = 0; i <=3; i++){
-           choice_que[i].classList.add("disabled");
+           opc_que[i].classList.add("disabled");
        }
    }) 
 });
@@ -170,7 +170,7 @@ choice_que.forEach( (choices, choiceNo) => {
 next_question.addEventListener("click", ()=>{
     if(index < MCQS.length-1){
         index++;
-        choice_que.forEach(removActive=>{
+        opc_que.forEach(removActive=>{
             removActive.classList.remove("active");
         })
 
@@ -178,13 +178,13 @@ next_question.addEventListener("click", ()=>{
         clearInterval(interval);
         interval = setInterval(countDown, 1000);
     }
-    else if(index >= MCQS.length-1 && index < 9 ){
+    else if(index >= pitanja.length-1 && index < 9 ){
         btnn.style.display = "block";
         next_question.style.display = "none";
-        option1.style.display = "none";
-        option2.style.display = "none";
-        option3.style.display = "none";
-        option4.style.display = "none";
+        opt1.style.display = "none";
+        opt2.style.display = "none";
+        opt3.style.display = "none";
+        opt4.style.display = "none";
         index++;
 
         questionText.innerText = questions2[i].question;
@@ -207,7 +207,7 @@ next_question.addEventListener("click", ()=>{
     }
 
     for(let i = 0; i <=3; i++){
-        choice_que[i].classList.remove("disabled");
+        opc_que[i].classList.remove("disabled");
     }
 })
 
@@ -227,9 +227,9 @@ startAgain.addEventListener("click", ()=>{
     index = 0;
     i = 0;
     next_question.style.display = "block";
-    option1.style.display = "block";
-    option2.style.display = "block";
-    option3.style.display = "block";
-    option4.style.display = "block";
-    inputAnswer.style.display = "none";
+    opt1.style.display = "block";
+    opt2.style.display = "block";
+    opt3.style.display = "block";
+    opt4.style.display = "block";
+    inputOdgovor.style.display = "none";
 })
