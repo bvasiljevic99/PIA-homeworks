@@ -1,4 +1,4 @@
 <?php
-session_start("user");
+session_start("korisnik");
 session_destroy();
 ?>
